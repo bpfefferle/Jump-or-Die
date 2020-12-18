@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  min-height: 100%;
+  background: #30343F;
+  color: ghostwhite;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2;
+}
+
+body{
+  min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p, button{
+  margin: 10px 0px;
+  text-align: center;
+}
+
+#canvas{
+  display: block;
+  margin: 25px auto;
+}
+
+#btnPlayGame{
+  font-size: 1rem;
+  display: block;
+  width: 125px;
+  height: 50px;
+  margin: 0px auto;
+  border-radius: 5px;
+  background: #216543;
+  border: none;
+  color: ghostwhite;
+  cursor: pointer;
+}
